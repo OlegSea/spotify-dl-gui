@@ -155,9 +155,9 @@ void MyWindow::on_directory_dialog_response(int response_id, Gtk::FileChooserDia
     delete dialog;
 }
 
-void MyWindow::update_links(std::vector<Glib::ustring> _links) {
+void MyWindow::update_links() {
     Glib::ustring _result;
-    for (auto i: _links) {
+    for (const auto& i: links) {
         _result.append(i);
         _result.append("\n");
     }
@@ -166,7 +166,7 @@ void MyWindow::update_links(std::vector<Glib::ustring> _links) {
 
 void MyWindow::on_link_button_clicked() {
     links.push_back(m_links_entry.get_text());
-    update_links(links);
+    update_links();
     m_links_entry.set_text("");
 }
 
@@ -174,9 +174,9 @@ void MyWindow::on_checkbox_checked(Gtk::CheckButton *checkbox, bool *flag) {
     *flag = checkbox->get_active();
 }
 
-void MyWindow::update_output(std::vector<Glib::ustring> _output) {
+void MyWindow::update_output() {
     Glib::ustring _result;
-    for (auto i: _output) {
+    for (const auto& i: output) {
         _result.append(i);
         _result.append("\n");
     }
@@ -211,10 +211,10 @@ void MyWindow::on_start_button_clicked() {
         config_file.close();
 
         output.clear();
-        update_output(output);
+        update_output();
 
         Glib::ustring _links = "-l ";
-        for (auto i: links) {
+        for (const auto& i: links) {
             _links.append(i);
             _links.append(" ");
         }
@@ -244,7 +244,7 @@ void MyWindow::on_notification_from_downloader_thread() {
     Glib::ustring msg;
     m_downloader.get_data(&msg);
     output.push_back(msg);
-    update_output(output);
+    update_output();
 }
 
 void MyWindow::update_start_button() {

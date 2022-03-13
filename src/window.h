@@ -41,11 +41,11 @@ protected:
 
     std::vector<Glib::ustring> links;
 
-    void update_links(std::vector<Glib::ustring> _links);
+    void update_links();
 
     std::vector<Glib::ustring> output;
 
-    void update_output(std::vector<Glib::ustring> _output);
+    void update_output();
 
     Gtk::Box m_main_box, m_client_id_box, m_client_secret_box, m_directory_box, m_links_box;
     Gtk::Grid m_checkboxes_grid;
