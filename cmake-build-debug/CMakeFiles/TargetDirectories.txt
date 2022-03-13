@@ -1,0 +1,3 @@
+/home/olegsea/Documents/Projects/C++/spotify-dl-gui/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/olegsea/Documents/Projects/C++/spotify-dl-gui/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/olegsea/Documents/Projects/C++/spotify-dl-gui/cmake-build-debug/CMakeFiles/spotify_dl_gui.dir

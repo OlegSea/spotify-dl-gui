@@ -1,0 +1,15 @@
+# ninja log v5
+6	2853	1647170874117967245	CMakeFiles/spotify_dl_gui.dir/src/window.cpp.o	80f7857e1deeccae
+6	2434	1647170873701294002	CMakeFiles/spotify_dl_gui.dir/src/main.cpp.o	ed3237fcc7dc447a
+6	2321	1647170873587958880	CMakeFiles/spotify_dl_gui.dir/src/downloader.cpp.o	5de0c988873a2718
+0	35	1647171156452306110	build.ninja	a2ae6ed274d39d24
+7	731	1647171157195650611	CMakeFiles/spotify_dl_gui.dir/src/exec-stream.cpp.o	76dffe15d1dc4dff
+8	2320	1647171158782341113	CMakeFiles/spotify_dl_gui.dir/src/downloader.cpp.o	5de0c988873a2718
+7	2503	1647171158962343817	CMakeFiles/spotify_dl_gui.dir/src/main.cpp.o	ed3237fcc7dc447a
+8	2889	1647171159349016291	CMakeFiles/spotify_dl_gui.dir/src/window.cpp.o	80f7857e1deeccae
+2889	3140	1647171159602353429	spotify_dl_gui	c347f85d5d19975f
+12	803	1647171328514864739	CMakeFiles/spotify_dl_gui.dir/src/exec-stream.cpp.o	76dffe15d1dc4dff
+11	2392	1647171330104888162	CMakeFiles/spotify_dl_gui.dir/src/downloader.cpp.o	5de0c988873a2718
+10	2496	1647171330208223017	CMakeFiles/spotify_dl_gui.dir/src/main.cpp.o	ed3237fcc7dc447a
+11	3102	1647171330814898621	CMakeFiles/spotify_dl_gui.dir/src/window.cpp.o	80f7857e1deeccae
+3102	3340	1647171331051568773	spotify_dl_gui	c347f85d5d19975f
